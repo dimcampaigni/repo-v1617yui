@@ -1,10 +1,24 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "7c1051f6e2bc3943b7c1dbe4da229694455681b8875a346c99279e555edb733f",
+    "payload/runtime/memories.json": "42ac72db80e5c5ed6efec73b36a3186029aba7dcaa02cf8e10d5ee5e3283ce40",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/runtime/MEMORY.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/documents/index.json": "02dbd87a6d87bb3eb0cf2d22a87efdf8dd323affa7668abf0720108a5fee366c",
-    "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
+    "payload/runtime/MEMORY.md": "933cb05d9084c4f15707db520859085ce9a675005a5c77bc97867523861f11bb",
+    "payload/documents/index.json": "5a9c84f05f5a7f104b91f439dd021e5bed809bbb0fb802ce0eb11784b1fc552d",
+    "payload/documents/active/document-09d3e37f.md": "0a7e5460b04f8e3b27bc2c9bc40045396aeccea0a8724a22d3f9e1be507b92c2",
+    "payload/documents/active/codebuddy-sse-84028075.md": "cf285a37f772090a6b77fe20db3756d986f6731f7dc45abaffdc636b343663bc",
+    "payload/documents/active/miora-codebuddy-0fc2dea3.md": "6649eca017f6c1f704885ab9770cd3554819a9dfa1384872eaf453f10ef3f63b",
+    "payload/documents/active/codebuddy-12403-6d3de3da.md": "42a7b1cb2cebb8761edccbcb2f5ad890c01eca6d2d79a105821da3a28d138226",
+    "payload/documents/active/codebuddy-sdk-12403-c1c69850.md": "3d8b313989307d0b561582484e22fc7b51cd65d754816b103a11a6a0f0156ded",
+    "payload/documents/active/codebuddy-ide-latest-marketplace-4-12-c9d98798.md": "65382bfbf9521221a127a3a93de0003792a66b813bf0de434d6d4f2b076d6d59",
+    "payload/documents/active/codebuddy-runtime-5fd40983.md": "2fe8348313f7f03944ed343d90abd85825cce27bfc9d8f7acbfa0e6ce66a3268",
+    "payload/documents/active/gpt-8e07fb9d.md": "6bd8071f2aa0014cf8456378bd92c826c44c0cd105bec4f760e850a06f239ceb",
+    "payload/documents/active/gpt-69b9717f.md": "a66d2798c808bc3455ba5bbd70295d632348ea949be9c997e461cd17451b310d",
+    "payload/documents/active/codex-0-169-responses-lite-3e285031.md": "b9af5f96eeae60d856808a1a7fb85fb0b9ea0253fcc4e0c95e69859aed9f4b37",
+    "payload/documents/active/gpt-cc-switch-4-5-ca92adc8.md": "ca131cc9c4a328dc28d4d5fbcccedc65dbcb4d2dd1f046f17e2bd022cf65fbdc",
+    "payload/documents/active/gpt-3f259eba.md": "322bb20775b6f9107c3bd4f3b2b44b62eeec1022677ab6b3694dea0f50ba0a80",
+    "payload/documents/active/500-2a403fa2.md": "c198953a843650ca81abf3fcd6fdcfde5bc2a75feb9b6ef1d376de3ca4335312",
+    "payload/data/.dsh-memory-bodies.json": "62e00e3f0776639ab0a558c5d17b5b72a7d4dece0a8cce785be1d6bff10c8b24",
+    "payload/data/default/mnemon.db": "e186335392ac5c68b10177f8c94371305e634b627c17b178942a7208895b55ca"
   }
 }

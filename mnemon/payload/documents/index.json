@@ -1,4 +1,353 @@
 {
   "version": 1,
-  "documents": []
+  "documents": [
+    {
+      "id": "09d3e37f-275f-433a-92e3-172437dba44d",
+      "title": "一枝春手机私有安全看板：首版架构、证据边界与运维交接",
+      "description": "2026-11-14首版独立Worker/D1轻量监控的五路采集、真实鉴权验收、数据未知规则、覆盖盲区、凭据续配与安全停用流程。",
+      "status": "active",
+      "filename": "document-09d3e37f.md",
+      "relativePath": "documents/active/document-09d3e37f.md",
+      "sourcePaths": [
+        "research/security-monitor-implementation-20261114/上线记录.md",
+        "deploy/security-monitor/collector.py",
+        "deploy/security-monitor/worker.mjs",
+        "research/security-monitor-implementation-20261114/server-readback.json",
+        "research/security-monitor-implementation-20261114/access-verification.json",
+        "research/security-monitor-implementation-20261114/web-verification.json",
+        "deploy/security-monitor/business_check_remote.py"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-a00a7c52-40fa-4ca4-bbe2-4e6b7d622612"
+      ],
+      "createdAt": "2026-11-14T03:27:21.362Z",
+      "updatedAt": "2026-11-14T03:27:21.362Z",
+      "lastAccessedAt": "2026-11-16T17:36:08.230Z",
+      "revision": 1,
+      "contentHash": "3de635f147b41f101af94ffdfc9d8e577073fa0f9cac8a8f98ab39553f772ad5",
+      "sizeBytes": 7807,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "84028075-74d2-4c15-89b8-7a04f2a12637",
+      "title": "CodeBuddy 当前接入线路托管搜索核查：阳性对照、SSE证据与结论边界",
+      "description": "2026-11-16 gpt-6.1-sol 既有relay的普通function与托管web_search对照调查；保留完整流验证方法、管理连接超时的归因边界及后续入口核查方向。",
+      "status": "active",
+      "filename": "codebuddy-sse-84028075.md",
+      "relativePath": "documents/active/codebuddy-sse-84028075.md",
+      "sourcePaths": [
+        ".cache/websearch-upstream-20261116/probe_full_result_remote.py",
+        ".cache/websearch-upstream-20261116/provider-full-result.json",
+        ".cache/websearch-upstream-20261116/provider-probe-diagnostic.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-16237afb-0498-4e3f-a0d8-f4b4a8e0b1bd"
+      ],
+      "createdAt": "2026-11-16T07:11:44.674Z",
+      "updatedAt": "2026-11-16T07:11:44.674Z",
+      "lastAccessedAt": "2026-11-16T16:34:47.028Z",
+      "revision": 1,
+      "contentHash": "a1e99f1ef89eddddde0bf8d3be5766e62a6159fd693cf1fe4012979ea74aca69",
+      "sizeBytes": 5516,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "0fc2dea3-af67-4834-80c3-d4d8193753af",
+      "title": "Miora/CodeBuddy原生搜索入口：前缀纠正、执行契约与接入边界",
+      "description": "2026-11-16正确原生搜索入口的源码、运行endpoint和真实来源证据；补充托管搜索阴性基线，保留域名过滤与Codex接入未验收边界。",
+      "status": "active",
+      "filename": "miora-codebuddy-0fc2dea3.md",
+      "relativePath": "documents/active/miora-codebuddy-0fc2dea3.md",
+      "sourcePaths": [
+        "research/native-search-20261116/runtime-entry-findings.md",
+        "research/native-search-20261116/provider-primary-sources.md",
+        ".cache/websearch-upstream-20261116/native-actual-endpoint-v2.json",
+        ".cache/websearch-upstream-20261116/native-correct-search.json",
+        ".cache/websearch-upstream-20261116/native-cli-owner.json",
+        ".cache/websearch-upstream-20261116/native-search-contract.json",
+        ".cache/websearch-upstream-20261116/native-safeconfig.json",
+        ".cache/websearch-upstream-20261116/native-prefix-urllib-result.json",
+        ".cache/websearch-upstream-20261116/native-search-probe.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-35bfaf53-2738-4d38-91c7-ecfe88ad9f57"
+      ],
+      "createdAt": "2026-11-16T07:47:30.922Z",
+      "updatedAt": "2026-11-16T07:47:30.922Z",
+      "lastAccessedAt": "2026-11-16T17:36:08.230Z",
+      "revision": 1,
+      "contentHash": "af273db1a324db45d0f7207fdecf826ec0e6b948d56b8c749ea568bd7732a10d",
+      "sizeBytes": 7574,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "6d3de3da-0226-4b1e-abac-70a2b365958e",
+      "title": "CodeBuddy模型接口定位：动态目录12403与合并缓存的证据边界",
+      "description": "保存2026-11-16现有上游模型路由调查：动态目录实际拒绝、七款GPT缓存无路由覆盖、与Codex11128的证据区分及后续合法核验条件。",
+      "status": "active",
+      "filename": "codebuddy-12403-6d3de3da.md",
+      "relativePath": "documents/active/codebuddy-12403-6d3de3da.md",
+      "sourcePaths": [
+        "research/native-search-20261116/current-interface-scope.md",
+        ".cache/websearch-upstream-20261116/current-remote-model-config.json",
+        ".cache/websearch-upstream-20261116/current-target-interface-keys.json",
+        ".cache/websearch-upstream-20261116/current-model-cache-routes.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-da97fe10-1ebc-4b05-95f9-2e780ca8510c"
+      ],
+      "createdAt": "2026-11-16T08:12:03.412Z",
+      "updatedAt": "2026-11-16T08:12:03.412Z",
+      "lastAccessedAt": "2026-11-16T15:25:20.927Z",
+      "revision": 1,
+      "contentHash": "59353b24dc24aa6157d1c09c0ef2330fd9e1733c4d2afde7361dbfb8a9e90404",
+      "sizeBytes": 5688,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "c1c69850-1eae-4dee-863a-d45f042353bf",
+      "title": "CodeBuddy官方SDK无推理目录读取：12403后续核验与路由边界",
+      "description": "补充官方2.183.0仅初始化成功刷新目录的实证、七款GPT新缓存默认Chat的限定结论，以及2.184.0已见差异与Codex恢复的区分。",
+      "status": "active",
+      "filename": "codebuddy-sdk-12403-c1c69850.md",
+      "relativePath": "documents/active/codebuddy-sdk-12403-c1c69850.md",
+      "sourcePaths": [
+        "research/native-search-20261116/current-interface-scope.md",
+        ".cache/websearch-upstream-20261116/current_official_metadata_init.py",
+        ".cache/websearch-upstream-20261116/current-official-metadata-init.json",
+        ".cache/websearch-upstream-20261116/current-target-interface-keys-after-init.json",
+        ".cache/websearch-upstream-20261116/current-config-read-summary.json",
+        ".cache/interface-delta-20261116/package/CHANGELOG.md"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-b88e1602-3989-4fcf-97c5-8b2244d6c40a"
+      ],
+      "createdAt": "2026-11-16T08:28:50.384Z",
+      "updatedAt": "2026-11-16T08:28:50.384Z",
+      "lastAccessedAt": "2026-11-16T17:36:08.230Z",
+      "revision": 1,
+      "contentHash": "6048a1911fdbd5dc235fb4e3cab87a39d3d8713b4236a4f3f1d251754f76c02e",
+      "sizeBytes": 6538,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "c9d98798-d6bc-4609-99b4-e9d035fc0993",
+      "title": "CodeBuddy IDE扩展发行来源核验：latest旧包与Marketplace 4.12鉴别",
+      "description": "保存2026-11-16两套官方VSIX回执、包内版本与SHA256；说明latest直链不能代表当时Marketplace版本，发行核验不等于Codex接口验收。",
+      "status": "active",
+      "filename": "codebuddy-ide-latest-marketplace-4-12-c9d98798.md",
+      "relativePath": "documents/active/codebuddy-ide-latest-marketplace-4-12-c9d98798.md",
+      "sourcePaths": [
+        "research/native-search-20261116/current-interface-scope.md",
+        ".cache/codebuddy-ide-interface-20261116/download-receipt.json",
+        ".cache/codebuddy-ide-interface-20261116/vsix/extension/package.json",
+        ".cache/codebuddy-ide-interface-20261116/current-download-receipt.json",
+        ".cache/codebuddy-ide-interface-20261116/current-vsix/extension/package.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-1ec2e934-d8d2-4838-9433-33baa2c5178e"
+      ],
+      "createdAt": "2026-11-16T08:55:01.718Z",
+      "updatedAt": "2026-11-16T08:55:01.718Z",
+      "lastAccessedAt": "2026-11-16T18:02:42.938Z",
+      "revision": 1,
+      "contentHash": "585672831f4109d6430550ff4b73b97017934a313510aa44ef781d427e059308",
+      "sizeBytes": 4631,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "5fd40983-0e71-446d-82f4-f480228f0887",
+      "title": "CodeBuddy runtime接口分型与模型基址覆盖核查",
+      "description": "保存ACP/E2B链接、local-proxy通用转发与五个CLI基址覆盖输入的只读证据，限定Codex兼容结论及合法核验条件。",
+      "status": "active",
+      "filename": "codebuddy-runtime-5fd40983.md",
+      "relativePath": "documents/active/codebuddy-runtime-5fd40983.md",
+      "sourcePaths": [
+        "research/native-search-20261116/current-interface-scope.md",
+        "research/native-search-20261116/local-port-proxy-interface-review.md",
+        ".cache/websearch-upstream-20261116/runtime-link-endpoint-shapes.json",
+        ".cache/native-search-docs-20261116/codebuddy-agentos-api.yaml",
+        ".cache/local-proxy-interface-20261116/index.js",
+        ".cache/local-proxy-interface-20261116/pathProxy.js",
+        ".cache/local-proxy-interface-20261116/targetHost.js",
+        ".cache/websearch-upstream-20261116/final-model-base-overrides.json",
+        "research/gpt-codex-assessment-20261116/actual-codex.json",
+        ".cache/websearch-upstream-20261116/native-prefix-urllib-result.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-39ae5996-6a84-4f77-8ddc-5809b4969856"
+      ],
+      "createdAt": "2026-11-16T09:38:23.960Z",
+      "updatedAt": "2026-11-16T09:38:23.960Z",
+      "lastAccessedAt": "2026-11-16T20:43:11.897Z",
+      "revision": 1,
+      "contentHash": "cba2e6f7af01ae526b5067f355a4eca25deb79e1cb7dc50522fddb69ad15f651",
+      "sizeBytes": 6527,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "8e07fb9d-2bac-4bbc-9b5c-f0f176550a22",
+      "title": "后台GPT报错诊断：普通函数准入与具名工具转译的可修边界",
+      "description": "保存2026-11-16两处本地兼容遗漏、出站离线对照及统计纠正；限定未上线、复杂工具与连接reset仍未解决，供后续窄修复使用。",
+      "status": "active",
+      "filename": "gpt-8e07fb9d.md",
+      "relativePath": "documents/active/gpt-8e07fb9d.md",
+      "sourcePaths": [
+        "research/gpt-errors-20261116/RESULT.md",
+        "research/gpt-errors-20261116/parameter-review.md",
+        "research/gpt-errors-20261116/transport-review.md",
+        ".cache/gpt-errors-20261116/named-tool-wire-result.json",
+        ".cache/gpt-errors-20261116/parameter-review/toolchoice-output.txt",
+        ".cache/gpt-errors-20261116/parameter-review/reasoning-output.txt",
+        ".cache/gpt-errors-20261116/transport-review/go-output.json",
+        ".cache/gpt-errors-20261116/reset-correlated-redacted.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-b46fe485-8fca-4fb5-8912-6477ac290ddc"
+      ],
+      "createdAt": "2026-11-16T14:44:08.558Z",
+      "updatedAt": "2026-11-16T14:44:08.558Z",
+      "lastAccessedAt": "2026-11-16T20:43:11.897Z",
+      "revision": 1,
+      "contentHash": "bd64f6758afa243d015df12f1cbe99ff6bfe33fb2f3adc63992babc017578cd2",
+      "sizeBytes": 7767,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "69b9717f-69c5-454c-8a03-05f234c12a0a",
+      "title": "GPT普通工具兼容窄修上线：三模型往返与账单关联",
+      "description": "补充2026-11-16两处窄修的上线、三款六次真实普通工具往返及唯一账单关联；引用既有未上线诊断，保留Chat入口与完整Codex的验收边界。",
+      "status": "active",
+      "filename": "gpt-69b9717f.md",
+      "relativePath": "documents/active/gpt-69b9717f.md",
+      "sourcePaths": [
+        "research/gpt-fix-20261116/RESULT.md",
+        "research/gpt-fix-20261116/smoke.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-e299c23f-f538-4729-881d-bd6be9bcc692"
+      ],
+      "createdAt": "2026-11-16T15:26:38.487Z",
+      "updatedAt": "2026-11-16T15:26:38.487Z",
+      "lastAccessedAt": "2026-11-17T00:54:32.634Z",
+      "revision": 1,
+      "contentHash": "a7782ce7f9a2fe4d5fa4ee0552c87911de1d75b21405713ba4ea8fa8cf71ca8b",
+      "sizeBytes": 6378,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "3e285031-c4ae-454c-9e9e-bf6bcdcfdcf6",
+      "title": "Codex 0.169文件工具诊断：Responses Lite声明与协议准入边界",
+      "description": "基于固定官方源码与客户定向调查，区分本地reasoning.context准入拦截、工具未声明和未正确调用；保存最小脱敏取证流程，客户恢复仍未验证。",
+      "status": "active",
+      "filename": "codex-0-169-responses-lite-3e285031.md",
+      "relativePath": "documents/active/codex-0-169-responses-lite-3e285031.md",
+      "sourcePaths": [
+        "research/codex-user-tools-20261117/DIAGNOSIS.md",
+        "sub2api-cny/backend/internal/pkg/apicompat/restricted_responses_content.go",
+        "sub2api-cny/backend/internal/pkg/apicompat/restricted_responses_tools.go",
+        ".cache/codex-user-tools-20261117/client-review/raw/codex-rs/core/src/client.rs",
+        ".cache/codex-user-tools-20261117/client-review/raw/codex-rs/core/src/tools/spec_plan.rs",
+        ".cache/codex-user-tools-20261117/client-review/raw/codex-rs/core/src/tools/registry.rs"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-be55e4b7-536e-4ceb-a99c-654dd9aab567"
+      ],
+      "createdAt": "2026-11-16T16:36:00.129Z",
+      "updatedAt": "2026-11-16T16:36:00.129Z",
+      "lastAccessedAt": "2026-11-16T20:43:11.897Z",
+      "revision": 1,
+      "contentHash": "a7d9affc3b354dd41f088724dec777113529aeaef140bd720ff7b63df326510c",
+      "sizeBytes": 10062,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "ca92adc8-0c04-43d9-a9ea-2ce80ec3d381",
+      "title": "GPT/CC Switch适配第4–5轮：运行时拒绝诊断与客户验收交接",
+      "description": "保存七模型服务端候选的验收分层、本地原版CLI策略拒绝证据及客户同回合脱敏取证要求；候选未上线、客户恢复未认证，不替代此前客户诊断。",
+      "status": "active",
+      "filename": "gpt-cc-switch-4-5-ca92adc8.md",
+      "relativePath": "documents/active/gpt-cc-switch-4-5-ca92adc8.md",
+      "sourcePaths": [
+        "research/server-client-adapt-20261117/HANDOFF.md",
+        "research/server-client-adapt-20261117/RUNTIME-RESULT.md",
+        "research/server-client-adapt-20261117/RUNTIME-SELF-CHECK.md",
+        "research/server-client-adapt-20261117/CODEMODE-RESULT.md",
+        "research/server-client-adapt-20261117/RESPONSES-RESULT.md",
+        "research/server-client-adapt-20261117/CUSTOMER-EVIDENCE.md",
+        "research/server-client-adapt-20261117/MODEL-DISCOVERY.md",
+        ".cache/server-client-adapt-20261117/runtime-round4/RUNTIME-EVIDENCE.json",
+        ".cache/server-client-adapt-20261117/runtime-round4/case-gpt-6.1-sol-v2/home/.sandbox/sandbox.2026-11-16.log",
+        ".cache/server-client-adapt-20261117/codemode-round1/round1-verification.json",
+        ".cache/server-client-adapt-20261117/responses-round2/verification.json",
+        ".cache/server-client-adapt-20261117/closure-round5/latest-metadata.json",
+        ".cache/server-client-adapt-20261117/first-summary.json",
+        ".cache/server-client-adapt-20261117/follow-summary.json",
+        ".cache/server-client-adapt-20261117/file-executions.json",
+        ".cache/server-client-adapt-20261117/client-return-verification.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-c23f3d86-756d-441a-8ecc-8f57e7062dd1"
+      ],
+      "createdAt": "2026-11-16T20:44:40.017Z",
+      "updatedAt": "2026-11-16T20:44:40.017Z",
+      "lastAccessedAt": "2026-11-17T00:54:32.634Z",
+      "revision": 1,
+      "contentHash": "11b34e3597ab64d661eb24233ce2b3335f94c84726d2900921de35947207ee71",
+      "sizeBytes": 9389,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "3f259eba-c29c-42fb-bcd0-73616b96ba0e",
+      "title": "GPT全系适配新机发布：运行身份、工具回程与安全回退边界",
+      "description": "保存2026-11-17新机1d1a815f发布、四次有限工具回程、CREDIT新账关联与发布接缝教训；补充历史候选文档，完整客户Codex恢复仍未认证。",
+      "status": "active",
+      "filename": "gpt-3f259eba.md",
+      "relativePath": "documents/active/gpt-3f259eba.md",
+      "sourcePaths": [
+        "research/gpt-client-release-20261117/DELIVERY.md",
+        "research/gpt-client-release-20261117/NEW-HOST-REVIEW.md",
+        ".cache/gpt-client-release-20261117/manifest.json",
+        ".cache/gpt-client-release-20261117/new-host-round7/retry4/FINAL-EVIDENCE.json",
+        ".cache/gpt-client-release-20261117/new-host-round7/retry4/post-canary-summary.json",
+        ".cache/gpt-client-release-20261117/new-host-round7/retry4/post-billing.json",
+        ".cache/gpt-client-release-20261117/new-host-round7/retry4/post-live.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-f68f55d8-73fd-49e6-813f-bc948f7d12fc"
+      ],
+      "createdAt": "2026-11-17T00:56:58.860Z",
+      "updatedAt": "2026-11-17T00:56:58.860Z",
+      "lastAccessedAt": "2026-11-17T00:56:58.860Z",
+      "revision": 1,
+      "contentHash": "a367ba576ea3cfb0424f9074d5be5f81f3c5cf4faebb776bca5d2b2f4edc1d93",
+      "sizeBytes": 8846,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "2a403fa2-38fe-4007-8a31-feb5fc09e942",
+      "title": "本机500模型账号补池：运行期准入、余额时点与核验交接",
+      "description": "保存2026-11-17本机Miora复制500账号至香港新机的有界准入与持久化证据；区分入池正余额、消费后快照及原验证器exit2，保留备份和后续操作边界。",
+      "status": "active",
+      "filename": "500-2a403fa2.md",
+      "relativePath": "documents/active/500-2a403fa2.md",
+      "sourcePaths": [
+        "research/pool-local500-20261117/RESULT.md",
+        ".cache/pool-local500-20261117/result.json",
+        ".cache/pool-local500-20261117/verification.json",
+        ".cache/pool-local500-20261117/credit-boundary.json",
+        ".cache/pool-local500-20261117/FINAL-EVIDENCE.json"
+      ],
+      "sessionIds": [
+        "mnemon-run-v1-7854abd9-b727-43c1-b391-87c6b9778e1d"
+      ],
+      "createdAt": "2026-11-17T03:05:58.259Z",
+      "updatedAt": "2026-11-17T03:05:58.259Z",
+      "lastAccessedAt": "2026-11-17T03:05:58.259Z",
+      "revision": 1,
+      "contentHash": "eadce0552ec9dc7ec9ddaa423ed845cfe3a1c716bed3c0000bf4f0a30a2baa67",
+      "sizeBytes": 5022,
+      "memoryBodyIds": []
+    }
+  ]
 }
